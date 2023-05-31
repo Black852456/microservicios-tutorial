@@ -4,4 +4,9 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://localhost:8082
+      uri: http://localhost:8080
+  datasource:
+    url: jdbc:mysql://localhost:3308/entendimiento?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrival=true
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver

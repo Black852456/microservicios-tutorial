@@ -48,7 +48,10 @@ public class CarroController {
         return ResponseEntity.ok(carros);
     }
 
-
+    @GetMapping("/mostrar")
+    public String mostrar(){
+        return "comprobacion";
+    }
 
 
 
