@@ -8,6 +8,6 @@ spring:
       enabled: true
       server:
         git:
-          default-label: eureka
+          default-label: multiple-instances
           uri: https://github.com/Black852456/microservicios-tutorial
           search-paths: config-data
