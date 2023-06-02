@@ -8,6 +8,6 @@ spring:
       enabled: true
       server:
         git:
-          default-label: multiple-instances
+          default-label: gateway
           uri: https://github.com/Black852456/microservicios-tutorial
           search-paths: config-data
