@@ -8,6 +8,6 @@ spring:
       enabled: true
       server:
         git:
-          default-label: circuit-breaker
+          default-label: zipkin-sleuth
           uri: https://github.com/Black852456/microservicios-tutorial
           search-paths: config-data
